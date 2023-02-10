@@ -58,7 +58,6 @@ while True:
             seslendir(class_name)
             insan_algilandi = True
 
-
         if not cep_telefonu_algilandi and class_name == "cep telefonu":
             seslendir(class_name)
             cep_telefonu_algilandi = True
