@@ -7,7 +7,7 @@ model = cv2.dnn_DetectionModel(net)
 model.setInputParams(size=(320, 320), scale=1/255)
 
 
-# Load class lists
+# Load class lists,
 classes = []
 with open("dnn_model/classes.txt", "r") as file_object:
     for class_name in file_object.readlines():
